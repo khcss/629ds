@@ -110,7 +110,7 @@ cursor: pointer;}
 .cat_toplist li{height:30px;line-height:30px;overflow: hidden;}
 .cat_toplist li span{font-style:italic;font-weight:600;padding-right:5px;}
 .cat_main{width:100%;overflow: hidden;}
-.cat_main h3 span{padding:0 10px;padding-right:10px;}
+.cat_main h3 span{padding:0 10px;padding-right:10px;color:#fff;}
 .cat_main h3 span a:hover{color:#fff;}
 .conpath span{padding:0 10px;height:35px;float:left;display: block;margin-right:10px;color: #fff;}
 .cat_listbox,.cat_xlist{width:100%;overflow: hidden;}
@@ -408,3 +408,5 @@ margin-right: 18px;cursor: pointer;}
 	.item-col .picbg img{width:100%;position:relative;height:160px;}.player_video{height:200px;}
 }
 #mg2{margin:2%}#mg2 img{height:100px;}
+@media  screen and (max-width: 600px) {.q2516{width: 100%;display: block;}}
+@media  screen and (min-width: 700px) {.q2516{display: none;}}
